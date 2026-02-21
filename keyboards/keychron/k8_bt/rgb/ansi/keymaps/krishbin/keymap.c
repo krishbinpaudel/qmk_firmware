@@ -71,7 +71,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *  Tab management: W=prev  E=close  R=next  T=new
  */
     [LAYER1] = LAYOUT_tkl_ansi(
-        QK_BOOT,          KC_BRID, KC_BRIU, KC_MSSN, KC_FIND, RGB_VAD, RGB_VAI, KC_MPRV, KC_MPLY, KC_MNXT, KC_MUTE, KC_VOLD,      KC_VOLU,     _______,  KC_WAKE,  RGB_TOG,
+        QK_BOOT,          KC_BRID, KC_BRIU, KC_MSSN, KC_FIND, RGB_VAD, RGB_VAI, KC_MPRV, KC_MPLY, KC_MNXT, KC_MUTE, KC_VOLD,      KC_VOLU,     EE_CLR,   KC_WAKE,  RGB_TOG,
         KC_BTPR, KC_BTP0, KC_BTP1, KC_BTP2, KC_BTRT, _______, _______, _______, _______, _______, _______, _______, TG(LAYER3),   KC_DEL,      _______,  RGB_SPI,  RGB_HUI,
         _______, KC_TABL, KC_CMDW, KC_TABR, _______, KC_CMDT, KC_HOME, KC_PGDN, KC_PGUP, KC_END,  _______, _______, _______,      _______,     _______,  RGB_SPD,  RGB_HUD,
         _______, _______, _______, _______, _______, _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______, _______,               _______,
